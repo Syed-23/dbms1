@@ -1,0 +1,5 @@
+SELECT place, COUNT(*) as earthquakes_no , AVG(mag) as avg_mag
+FROM earthquakes_table
+GROUP BY place
+HAVING COUNT(*) = 10
+ORDER BY earthquakes_no DESC;
