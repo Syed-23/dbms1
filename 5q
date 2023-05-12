@@ -1,0 +1,4 @@
+SELECT *
+FROM earthquakes_table
+ORDER BY mag ASC
+LIMIT 10;
