@@ -1,1 +1,4 @@
-1234
+select 
+longitiude - latitude as Diff,
+depth - deptherror as DepthDist
+FROM earthquakes_table ;
